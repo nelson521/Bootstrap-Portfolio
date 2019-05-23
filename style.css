@@ -1,0 +1,16 @@
+.whiteNav{
+  background-color: hsl(0, 0%, 100%);
+}
+
+.h1{
+  background-color: hsl(177, 39%, 48%);
+  color: white;
+  padding: 20px 10px;
+  font-family: 'Georgia', Times, Times 'New Roman', serif;
+}
+
+ul{
+  list-style-type: none;
+  display: inline-block;
+  
+}
