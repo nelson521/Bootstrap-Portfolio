@@ -1,8 +1,22 @@
-.whiteNav{
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  background-image: url("img/gplaypattern.png")
+}
+
+.container{
+  background-color: white;
+  margin-top: 20px;
+}
+
+.navbar{
   background-color: hsl(0, 0%, 100%);
 }
 
-.h1{
+.name{
   background-color: hsl(177, 39%, 48%);
   color: white;
   padding: 20px 10px;
@@ -11,6 +25,13 @@
 
 ul{
   list-style-type: none;
-  display: inline-block;
-  
+  float: right;
+}
+
+.teal{
+  color: hsl(177, 39%, 48%);
+}
+
+hr{
+  border-top: solid 2px #dddddd;
 }
